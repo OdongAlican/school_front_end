@@ -1,0 +1,86 @@
+.main-login-section {
+  display: flex;
+}
+
+.form-container-section,
+.school-logo-page {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.school-logo-page {
+  background-color: #2A57D3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-form-section {
+  width: 70%;
+  height: 80vh;
+}
+
+.main-login-header {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login-information-section {
+  font-size: 16px;
+  font-weight: 400;
+  color: #888;
+}
+
+.login-form-section {
+  padding: 35px 0;
+}
+
+.login-email-section,
+.login-passord-section,
+.login-forgot-password-section,
+.login-login-button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+}
+
+.manage-remotely-header {
+  background: '#FFC735';
+  width: 120px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #FFC735;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.third-party-remotely-header {
+  font-size: 13px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.login-select-section {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #e4e4e4;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  padding: 0 10px;
+  width: 400px;
+}
